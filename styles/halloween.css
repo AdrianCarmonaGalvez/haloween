@@ -1,0 +1,31 @@
+/********** hoja de estilo del ejercicio de halloween *******/
+/********** 2ºsmr - curso 2021/2022 *************************/
+/********** Autor: Adrian Carmona Galvez ********************/
+@font-face {
+    font-family: creepy;
+    src: url(../fonts/Gypsy\ Curse.ttf);
+}
+body {background-color: black;}
+#container {position: relative;
+            width: 1920px;
+            height: 1106px;
+            background-image: url("../imagenes/Fondocalabazas.jpg");
+            margin: 0px auto;
+            font-family: creepy;
+            color: white;}
+#texto {padding: 20px 0 0 80px;
+        text-shadow: 5px 5px 1px red;
+        font-size: 6em;}
+#texto2 {padding: 20px 0 0 1070px;
+        text-shadow: 5px 5px 1px red;
+        font-size: 3em;}
+#calavera {position: absolute;
+        left: 1090px;
+        top: 840px;
+        width: 70px;
+        height: 80px;}
+#bats {position: absolute;
+        left: 1400px;
+        top: 750px;
+        width: 300px;
+        visibility: hidden;}

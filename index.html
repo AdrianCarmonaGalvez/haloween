@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta de halloween</title>
+    <link rel="Stylesheet" href="./styles/halloween.css">
+    <script src="./javascript/halloween.js"></script>
+</head>
+<body onload="sonar('cancion');">
+    <audio id="cancion" controls autoplay>
+        <source src="./sonidos/canicoon.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="grito">
+        <source src="./sonidos/sfx-horror7.mp3" type="audio/mpeg">
+    </audio>
+    <div id="container">
+    <p id="texto">Scary halloween party</p>
+    <p id="texto2">Dont touch the skeleton</p>
+        <div id="calavera" onclick="mostrar('bats');sonar('grito')">
+        </div>
+        <img id="bats" src="./imagenes/murcielagos_moviendose.gif" alt="">
+    </div>
+</body>
+</html>
